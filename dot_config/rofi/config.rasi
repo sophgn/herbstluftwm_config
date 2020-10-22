@@ -1,0 +1,11 @@
+configuration {
+	modi: "window,drun,run,combi";
+	combi-modi: "window,drun,run";
+	auto-select: false;
+	show-icons: true;
+}
+element-icon {
+    size: 22;
+}
+@import "/usr/share/rofi/themes/Arc-Dark.rasi"
+

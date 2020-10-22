@@ -1,0 +1,8 @@
+[Unit]
+Description=Set a random wallpaper
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/feh --bg-scale -r -z Pictures/Wallpapers
+
