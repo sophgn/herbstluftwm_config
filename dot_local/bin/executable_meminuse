@@ -2,4 +2,5 @@
 while true; do
   echo .local/share/psuinfo/mem.svg
   free | grep Mem | awk '{printf ("%.1f/%.1f GiB\n",$3/1048576,$2/1048576)}'
+  sleep 5
 done
