@@ -1,3 +1,6 @@
 #!/bin/bash
-echo .local/share/psuinfo/cpu.svg
-uptime | cut -c 45-60 | tr -d ","
+while true; do
+  echo .local/share/psuinfo/cpu.svg
+  uptime | cut -c 45-60 | tr -d ","
+  sleep 5
+done
