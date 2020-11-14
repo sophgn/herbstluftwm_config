@@ -6,4 +6,4 @@ OnBootSec=5min
 OnUnitInactiveSec=5min
 
 [Install]
-WantedBy=graphical.target
+WantedBy=default.target
